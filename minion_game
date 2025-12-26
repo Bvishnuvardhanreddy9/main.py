@@ -1,6 +1,6 @@
-def minion_game(strng):
+def minion_game(string):
     k=0
-    d=0
+    s=0
     v="AEIOU"
     for i in range(len(string)):
         if string[i] in v:
@@ -13,4 +13,5 @@ def minion_game(strng):
         print("stuart is the winner",s)
     else:
         print("it is a draw")
-        
+string = input()
+minion_game(string)
